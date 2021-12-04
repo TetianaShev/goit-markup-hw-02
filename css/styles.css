@@ -1,14 +1,56 @@
+:root{
+    --primary-text-color:black;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+}
 body 
-   {background-color: black;
-    color: black;
+   {background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+h2.
+h3{
+    color:#212121;
+}.list {
+    list-style: none;
+
 }
 /* цвет основного текста color: #212121;*/
-/* вторичный цвет #757575 */
-/* цвет акцент #2196F3 */
-/* белый #FFFFFF */
+/* вторичный цвет #757575; */
+/* цвет акцент #2196F3; */
+/* белый #FFFFFF; */
 /* цвет футер rgba(255. 255. 255. 0.6);*/
-/* вторичный цвет фона  */
 
-logo {
-    color: black;
+
+.logo {
+    color:var(--primary-text-color);
+}
+/* hero */
+.hero-title{
+    color:  #FFFFFF;
+    ;
+}
+/* web studio */
+.site-nav .link{
+    color: #2196F3;
+}
+/* section */
+
+.section-title {
+    color:#212121 ;
+}
+/* features */
+.list  {
+    color: #757575;
+    }
+/* examples*/
+/* profession*/
+.subtitle {
+    color: #757575;
+}
+/*button*/
+.button{
+    color:var(--title-text-color) ;
+    background-color: var(--primary-bg-color);
+
 }
