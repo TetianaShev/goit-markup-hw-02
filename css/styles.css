@@ -3,6 +3,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-bg-color: #FFFFFF;
+    --secondary-color:#757575;
 }
 body 
    {background-color: var(--primary-bg-color);
@@ -10,7 +11,7 @@ body
 }
 h2.
 h3{
-    color:#212121;
+    color:var(--title-text-color);
 }.list {
     list-style: none;
 
@@ -27,26 +28,26 @@ h3{
 }
 /* hero */
 .hero-title{
-    color:  #FFFFFF;
+    color: var(--primary-bg-color);
     ;
 }
 /* web studio */
 .site-nav .link{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 /* section */
 
 .section-title {
-    color:#212121 ;
+    color:var(--title-text-color) ;
 }
 /* features */
 .list  {
-    color: #757575;
+    color: var(--secondary-color);
     }
 /* examples*/
 /* profession*/
 .subtitle {
-    color: #757575;
+    color: var(--secondary-color);
 }
 /*button*/
 .button{
