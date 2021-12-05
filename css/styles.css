@@ -2,7 +2,7 @@
     --primary-text-color:black;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-bg-color: #FFFFFF;
+    --primary-white-color: #FFFFFF;
     --secondary-color:#757575;
 }
 body 
@@ -50,8 +50,16 @@ h3{
     color: var(--secondary-color);
 }
 /*button*/
-.button{
-    color:var(--title-text-color) ;
-    background-color: var(--primary-bg-color);
 
+.button{
+    color: var(--primary-text-color);
+    background: var(--primary-white-color);
+}
+.button .primary {
+    color: var(--primary-text-color) ;
+    background-color: var(--primary-white-color);
+}
+.a .button .secondary{
+    color: var(--accent-color);
+    background: var(--primary-white-color);
 }
