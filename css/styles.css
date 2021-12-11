@@ -106,8 +106,8 @@ ul {
     line-height: 1.87;
     letter-spacing: 0.06em;
 }
-.button.primary:hover,
-.button.primary:focus{
+.button .primary:hover,
+.button .primary:focus{
      color: var(--accent-color-text);
      background-color: var(--accent-color);
 }
@@ -142,21 +142,13 @@ ul {
   }
   
   /*  Команда */
-  .team .team-title{
+
+
+.section-title{
       color: var(--titles-text-color-first);
       font-weight: 700;
       font-size: 36px;
       line-height: 1.17;
-      text-align: center;
-      letter-spacing: 0.03em;
-
-}
-
-.team-list .title{
-      color: var(--titles-text-color-first);
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.19;
       text-align: center;
       letter-spacing: 0.03em;
 }
@@ -169,22 +161,17 @@ ul {
       letter-spacing: 0.03em;
 }
 /* Buttons */
-.buttons{
+.care{
     color: var(--titles-text-color-first);
     background-color: var(--backing-color);
     cursor: pointer;
 }
-.button .buttons.primary:hover,
-.button .buttons.primary:focus{
+.care:hover,
+.care:focus{
     color: var(--accent-color-text);
     background-color: var(--accent-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
-/* Портфолио */
+    /* Портфолио */
 .portfolio .title{
     color: var(--titles-text-color-first);
     font-weight: 700;
