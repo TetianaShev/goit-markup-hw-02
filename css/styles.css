@@ -22,6 +22,7 @@ body {
 ul {
     list-style: none;
 }
+
  /* Header*/
 
 .logo-first {
@@ -52,17 +53,19 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
+    
 }
 .site-nav .link .current {
     color: var(--accent-color);
 }
 
 /* web studio */
-.contact-nav .nav-e-mail{
+.contact-link{
     color: var(--text-color);
     font-weight: 500;
     font-size: 14px;
@@ -71,18 +74,11 @@ ul {
     text-decoration: none;
 }
 
-.contact-nav .nav-e-mail:hover,
-.contact-nav .nav-e-mail:focus{
+.contact-link:hover,
+.contact-link:focus{
     color: var(--accent-color);
 }
-.contact-nav .nav-tel{
-    color: var(--text-color);
-    text-decoration: none;
-}
-.contact-nav .nav-tel:hover,
-.contact-nav .nav-tel:focus{
-    color: var(--accent-color);
-}
+
 
 
 /* Hero */
@@ -95,6 +91,7 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    
 }
 /* Hero button */
 
@@ -105,16 +102,19 @@ ul {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    cursor: pointer;
+   
 }
 .button .primary:hover,
 .button .primary:focus{
      color: var(--accent-color-text);
      background-color: var(--accent-color);
+    
 }
 
   /*  Преимущества */
 
-  .feature-list .title{
+.feature-title{
       color: var(--titles-text-color-first);
       font-weight: 700;
       font-size: 14px;
@@ -122,16 +122,17 @@ ul {
       letter-spacing: 0.03em;
       text-transform: uppercase;
   }
-   .feature-list .text{
+.feature-text{
        color: var(--text-color);
        font-size: 14px;
        line-height: 1.71;
        letter-spacing: 0.03em;
+       text-transform: uppercase;
   }
 
   /* Примеры работ */
 
-  .aboutus-title{
+.aboutus-title{
       color: var(--titles-text-color-first);
       font-weight: 700;
       font-size: 36px;
@@ -144,7 +145,7 @@ ul {
   /*  Команда */
 
 
-.section-title{
+.team-list{
       color: var(--titles-text-color-first);
       font-weight: 700;
       font-size: 36px;
@@ -172,14 +173,14 @@ ul {
     background-color: var(--accent-color);
 }
     /* Портфолио */
-.portfolio .title{
+.portfolio-title{
     color: var(--titles-text-color-first);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.portfolio .text{
+.portfolio-text{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.87;
